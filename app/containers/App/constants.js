@@ -10,8 +10,8 @@
  */
 import generateTemplate from 'utils/generateTemplate';
 
-export const API_URL_BASE = 'https://51.195.40.45:4005/v1';
-export const API_TESTNET_URL_BASE = 'https://testnetapi.51.195.40.45/v1';
+export const API_URL_BASE = 'https://omnixep.xepdev.com:4005/v1';
+export const API_TESTNET_URL_BASE = 'https://testnetapi.omnixep.xepdev.com/v1';
 export const API_OMNIFEATHER_URL_BASE = 'https://api.omnifeather.com/v1';
 export const API_LTC_URL_BASE = 'https://api.omnilite.org/v1';
 export const API_URL_BLOCKCHAIN_BTC_BALANCE =
