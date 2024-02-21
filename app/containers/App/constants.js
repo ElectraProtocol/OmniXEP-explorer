@@ -42,7 +42,7 @@ const hostName = window.location.hostname;
 let apiUrlBase;
 
 if (/localhost/i.test(hostName)) {
-  apiUrlBase = 'https://localhost:4005/v1';
+  apiUrlBase = 'https://omnixep.xepdev.com:4005/v1';
 } else {
   if (hostName.indexOf('omnixep.xepdev.com') > -1) {
     apiUrlBase = 'omnixep.xepdev.com/v1'
